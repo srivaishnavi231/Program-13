@@ -86,4 +86,4 @@ INNER JOIN Course
 INNER JOIN Faculty
     ON Course.FacultyID = Faculty.FacultyID
 INNER JOIN Department
-    ON Faculty.DepartmentID = Department.DepartmentI
+    ON Faculty.DepartmentID = Department.DepartmentID;
